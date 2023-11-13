@@ -8,5 +8,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### Note \
 
 ### `This project is my heart, because I developed it when i have a pressure of mids exams.`
-# Admin-Panel
-# admin-panel
+
+
