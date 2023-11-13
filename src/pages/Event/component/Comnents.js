@@ -5,7 +5,7 @@ const data = commentsData;
 
 export default function Comments() {
   return (
-    <div className="term">
+    <div className="term term2">
       {data.map((item, index) => (
         <div key={index} className="item-2">
           <img src={item.img} alt="img" className="item-img" />

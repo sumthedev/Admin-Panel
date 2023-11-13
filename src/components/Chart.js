@@ -69,7 +69,7 @@ const data = [
 function Chart() {
   return (
     <div className="chart-div">
-      <LineChart width={600} height={290} data={data}>
+      <LineChart width={650} height={255} data={data}>
         <CartesianGrid vertical={false} stroke="#EBE9F1" />
 
         <XAxis

@@ -32,13 +32,13 @@ export default function Users() {
   return (
     <>
       <div className="data-table  custom-shadow">
-        <div className="border-b border-gray-200 mb-[20px] border-solid border-1">
-          <span className="p-[3rem] text-[24px] mt-[20px] text-semibold text-left text-gray-700">
+        <div className="border-b border-gray-200 border-solid border-1">
+          <span className="p-[2rem] text-[24px] mt-[20px] text-semibold text-left text-gray-700">
             Users
           </span>
           <div
             className="w-[129.92px] h-[29.86px] text-white text-center relative
-            bottom-[25.68px] left-[941.72px] pt-1 pb-7 bg-teal-400 rounded-[4.48px]"
+            bottom-[21px] left-[800.72px] pt-1 pb-7 bg-teal-400 rounded-[4.48px]"
           >
             <button>
               <Link to="/form">+ Add User</Link>
@@ -148,6 +148,7 @@ export default function Users() {
                 {data.length} entries
               </td>
             </tr>
+
             <Pagination
               currentPage={currentPage}
               numberOfPages={numberOfPages}

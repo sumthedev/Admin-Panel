@@ -110,25 +110,21 @@ function Messages() {
           </button>
         </div>
       </div>
-      <div
-        className="w-[833.38px] h-[814px] custom-shadow absolute top-[98px] left-[595.62px]
-      
-      "
-      >
-        <div className="w-[832.5px] bg-white custom-shadow h-[57.26px] absolute top-[3px] left-[3px] rounded-[0px 4.4px 0px 0px]">
+      <div className="  absolute top-[98px] left-[595.62px]">
+        <div className="w-[745px] bg-white custom-shadow h-[57.26px] absolute top-[3px] left-[3px] rounded-[0px 4.4px 0px 0px]">
           <span className="w-[31.71px ] h-[31.71px] absolute left-[5px] top-[7px]">
             <img src="/Icons/avatar3.png" alt="2"></img>
           </span>
           <span className="absolute left-[50px] top-[15px]  chat-name">
             Carrie Hawkins
           </span>
-          <span className="absolute left-[700px] top-[16px]">
+          <span className="absolute left-[600px] top-[16px]">
             <img src="/Icons/serh.png" alt="2"></img>
           </span>
         </div>
       </div>
-      <div className="bg-custom w-[832.5px] absolute h-[702.63px] top-[154.38px] left-[596.5px]">
-        <div className=" flex w-[292px] h-[41px] bg-teal-500 absolute top-[52px] left-[525px] p-[0.06px 0.53px 4.82px 13.09px]">
+      <div className="bg-custom w-[745px] absolute h-[702.63px] top-[154.38px] left-[596.5px]">
+        <div className=" flex w-[292px] h-[41px] bg-teal-500 absolute top-[25px] left-[410px] p-[0.06px 0.53px 4.82px 13.09px]">
           <span className="text-white admin-text">
             How can we help? We're here for you! 😄
           </span>
@@ -151,10 +147,10 @@ function Messages() {
           <span className="text-yes">Yesterday</span>
         </div>
 
-        <div className=" flex w-[95px] h-[41px] bg-teal-500 absolute top-[292px] left-[700px] p-[0.06px 0.53px 4.82px 13.09px]">
+        <div className=" flex w-[95px] h-[41px] bg-teal-500 absolute top-[292px] left-[620px] p-[0.06px 0.53px 4.82px 13.09px]">
           <span className="text-white admin-text">Absolutely</span>
         </div>
-        <div className=" flex w-[400px] h-[41px] bg-teal-500 absolute top-[340px] left-[399px] p-[0.06px 0.53px 4.82px 13.09px]">
+        <div className=" flex w-[400px] h-[41px] bg-teal-500 absolute top-[340px] left-[315px] p-[0.06px 0.53px 4.82px 13.09px]">
           <span className="text-white admin-text">
             Vuexy admin is the responsive bootstrap 4 admin template.
           </span>
@@ -173,7 +169,7 @@ function Messages() {
           <span className="text-black admin-text">How can I purchase it?</span>
         </div>
 
-        <div className=" flex w-[212px] h-[41px] bg-teal-500 absolute top-[540px] left-[599px] p-[0.06px 0.53px 4.82px 13.09px]">
+        <div className=" flex w-[212px] h-[41px] bg-teal-500 absolute top-[540px] left-[500px] p-[0.06px 0.53px 4.82px 13.09px]">
           <span className="text-white admin-text">
             Thanks, from ThemeForest
           </span>
@@ -184,11 +180,11 @@ function Messages() {
           </span>
         </div>
       </div>
-      <div className="w-[832.5px] footer-b h-[56.38px] custom-shadow absolute top-[854.74px] left-[589.62px]">
+      <div className="w-[746px] footer-b h-[56.38px] custom-shadow absolute top-[854.74px] left-[599px]">
         <span className="footer-text absolute top-[25px]">
           Type your message or use speech to text
         </span>
-        <button className="edit-button absolute top-[10px] left-[760px]">
+        <button className="edit-button absolute top-[10px] left-[690px]">
           Send
         </button>
       </div>

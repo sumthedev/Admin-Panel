@@ -33,10 +33,11 @@ export default function Events() {
   return (
     <>
       <div className="data-table  custom-shadow">
-        <div className="border-b border-gray-200 mt-[20px]  border-solid border-1">
-          <span className="p-[3rem] mt-[50px] text-[24px] text-semibold text-left text-gray-700">
+        <div className="border-b border-gray-200 border-solid border-1">
+          <span className="p-[1rem] mt-[50px] text-[24px] text-semibold text-left text-gray-700">
             Events
           </span>
+          <div className=" p-[24px]"></div>
         </div>
         <div>
           <span className="p-[1rem] w-[33px] h-[19px] relative top-[20px] left-4 font-inter text-13 font-normal leading-19 tracking-normal text-left text-gray-600">
@@ -116,16 +117,20 @@ export default function Events() {
           </tbody>
           <tfoot>
             <tr>
-              <td className="p-3 text-left footer-text" colSpan="6">
+              <td className="p-1 text-left footer-text" colSpan="6">
                 Showing 1 to 6 of 100 entries
               </td>
+
               {/* pagination functionality goes here*/}
             </tr>
-            <Pagination
-              currentPage={currentPage}
-              numberOfPages={numberOfPages}
-              handlePerPage={handlePerPage}
-            />
+
+            <div className="absolute left-[-35px] top-[575px]">
+              <Pagination
+                currentPage={currentPage}
+                numberOfPages={numberOfPages}
+                handlePerPage={handlePerPage}
+              />
+            </div>
           </tfoot>
         </table>
       </div>

@@ -20,7 +20,7 @@ export default function Contact() {
         </Link>
         <img
           className=" relative 
-        top-[22px] "
+        top-[22px] p-[12px]"
           src="/images/Line-84.svg"
           alt="vector"
         ></img>

@@ -5,7 +5,7 @@ function View() {
   return (
     <>
       <div
-        className="w-[1124px] h-[216.15px] absolute flex custom shadow
+        className="w-[72.056vw] h-[15.010vw] absolute flex custom shadow
     top-[122.92px] left-[288px] p-[25.94px] border rounded-12 border-solid border-0.86"
       >
         <img
@@ -57,7 +57,7 @@ function View() {
         </div>
         <div>
           <Link to="/edit">
-            <button className="edit-button absolute left-[970px]">Edit</button>
+            <button className="edit-button absolute left-[830px]">Edit</button>
           </Link>
           <button
             className="w-[30px] h-[30px] absolute 

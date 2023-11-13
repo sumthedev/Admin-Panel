@@ -4,8 +4,8 @@ function UserTable() {
   return (
     <>
       <div
-        className="w-[740px] h-[414]
-      rounded-8.62 custom-shadow absolute top-[395px] left-[-400px]"
+        className="
+      rounded-8.62 custom-shadow absolute top-[395px] left-[-375px]"
       >
         <div className="w-content h-content pt-3 pl-4 pb-6">
           <h1 className="user-text text-bold p-4">Recent Users</h1>{" "}

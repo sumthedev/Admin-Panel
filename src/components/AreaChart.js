@@ -31,8 +31,8 @@ function SmallChart() {
   return (
     <div>
       <AreaChart
-        width={164}
-        height={60}
+        width={158}
+        height={59}
         data={data}
         margin={{
           top: 5,

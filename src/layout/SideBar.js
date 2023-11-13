@@ -5,8 +5,8 @@ function SideBar() {
   return (
     <>
       <Navbar />
-      <div className="flex  ">
-        <div className=" w-200px h-[950px]  bg-white custom-shadow mt-4 ml-4">
+      <div className="flex  relative">
+        <div className="w-[18.056vw] h-[950px]  bg-white custom-shadow mt-4 ml-4">
           <div className="flex items-center justify-between">
             <img src="/images/logo.png" className="mb-7" alt="logo" />
             <img src="/images/Icon.png" className="mb-7 mr-6" alt="icon" />
@@ -14,7 +14,8 @@ function SideBar() {
 
           <NavLink
             to="/"
-            className="custom-navlink flex items-center  p-4 w-230 h-42 top-106 right-4"
+            className="custom-navlink flex items-center p-4
+             "
           >
             <img src="/images/dashboard.svg" alt="dashboard"></img>
 
@@ -22,7 +23,7 @@ function SideBar() {
           </NavLink>
           <NavLink
             to="/users"
-            className="custom-navlink flex items-center  p-4 w-230 h-42 top-106 right-4"
+            className="custom-navlink flex items-center  p-4 "
           >
             <img src="/images/user.svg" alt="Dashboard Icon" />
             <span className="ml-2">Users</span>
@@ -30,14 +31,14 @@ function SideBar() {
 
           <NavLink
             to="/events"
-            className="custom-navlink flex items-center  p-4 w-230 h-42 top-106 right-4"
+            className="custom-navlink flex items-center  p-4 "
           >
             <img src="/images/events.svg" alt="Dashboard Icon" />
             <span className="ml-2">Events</span>
           </NavLink>
           <NavLink
             to="/messages"
-            className="custom-navlink flex items-center  p-4 w-230 h-42 top-106 right-4"
+            className="custom-navlink flex items-center  p-4"
           >
             <img src="/images/message.svg" alt="Dashboard Icon" />
             <span className="ml-2">Messages</span>

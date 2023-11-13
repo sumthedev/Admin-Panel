@@ -5,7 +5,7 @@ function Edit() {
   return (
     <>
       <div
-        className="w-[1124px] h-[216.15px] absolute flex custom shadow
+        className="w-[72.056vw] h-[15.010vw] absolute flex custom shadow
     top-[122.92px] left-[288px] p-[25.94px] border rounded-12 border-solid border-0.86"
       >
         <img
@@ -71,7 +71,7 @@ function Edit() {
             </span>
           </div>
           <Link to="/views">
-            <button className="edit-button2 absolute left-[910px]">
+            <button className="edit-button2 absolute left-[750px]">
               Save Changes
             </button>
           </Link>
